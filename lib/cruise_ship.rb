@@ -10,5 +10,6 @@ def select_winner(passengers)
   passengers.each do |suite, name|
     if suite=="suite_a" && name.includes?(A)
       name
+    end
   # add the code snippet here!
 end
