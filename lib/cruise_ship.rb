@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   passengers.each do |suite, name|
-    if suite=="suite_a" && name.includes?(A)
+    if suite==:suite_a && name.start_with?("A")
       name
     end
   # add the code snippet here!
